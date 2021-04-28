@@ -1,4 +1,5 @@
 #include <chesslib/board_content.h>
+#include <chesslib/board_print.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,6 +14,7 @@ int main()
     }
 
     board_content(board);
+    board_print(board);
 
     for (int i = 0; i < size; ++i) {
         delete board[i];
