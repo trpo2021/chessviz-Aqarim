@@ -1,4 +1,4 @@
-#include "convert_string_to_coordinates.h"
+#include "convert_str_to_coords.h"
 
 const int size_str = 10;
 
@@ -12,5 +12,5 @@ void enter_move(int* coordinates)
     printf("Move: ");
     gets(move);
 
-    convert_string_to_coordinates(move, coordinates);
+    convert_str_to_coords(move, coordinates);
 }
