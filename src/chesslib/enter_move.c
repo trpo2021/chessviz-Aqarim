@@ -1,4 +1,7 @@
 #include "convert_str_to_coords.h"
+#include "enter_move.h"
+
+#include <stdio.h>
 
 const int size_str = 10;
 
