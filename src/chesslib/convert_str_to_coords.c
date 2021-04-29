@@ -1,8 +1,7 @@
 const int size_str = 10;
 
 /*
-convet_str_to_coords - the procedure converting a chess notation to coordinates
-of board
+convet_str_to_coords - the procedure converting a chess notation to coordinates of board
 */
 
 void convert_str_to_coodrs(char* move, int* coordinates)
