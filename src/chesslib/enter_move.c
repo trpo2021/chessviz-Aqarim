@@ -13,7 +13,7 @@ void enter_move(int* coordinates)
 {
     char move[size_str];
     printf("Move: ");
-    gets(move);
+    fgets(move,size_str,stdin);
 
     convert_str_to_coords(move, coordinates);
 }
