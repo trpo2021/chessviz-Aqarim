@@ -1,4 +1,4 @@
-#incude "convert_str_to_coords.h"
+#include "convert_str_to_coords.h"
 
 const int size_str = 10;
 
