@@ -6,7 +6,7 @@ const int size_str = 10;
 convet_str_to_coords - the procedure converting a chess notation to coordinates of board
 */
 
-void convert_str_to_coodrs(char* move, int* coordinates)
+void convert_str_to_coords(char* move, int* coordinates)
 {
     int j = 0;
     for (int i = 0; i <= size_str; ++i) {

@@ -1,2 +1,2 @@
 #pragma once
-void convert_str_to_coodrs(char* move, int* coordinates);
+void convert_str_to_coords(char* move, int* coordinates);
