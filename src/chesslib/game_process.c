@@ -15,7 +15,7 @@ void game_process(char** board)
     do {
         board_print(board);
         enter_move(coordinates);
-        if (!check_correct_input(coordinates))
-            printf("Input Error!");
+        if (!(check_correct_input(coordinates)))
+            printf("Input Error!\n");
     } while (true);
 }
