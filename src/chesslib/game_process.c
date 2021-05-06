@@ -1,7 +1,7 @@
+#include "game_process.h"
 #include "board_print.h"
 #include "check_correct_input.h"
 #include "enter_move.h"
-#include "game_process.h"
 #include "move.h"
 #include <stdio.h>
 

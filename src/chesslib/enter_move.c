@@ -1,5 +1,5 @@
-#include "convert_str_to_coords.h"
 #include "enter_move.h"
+#include "convert_str_to_coords.h"
 
 #include <stdio.h>
 
